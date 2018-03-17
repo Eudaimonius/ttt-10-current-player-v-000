@@ -8,7 +8,7 @@ def turn_count(board)
     if position="X"||turns="O"
 
       number_of_turns+=1
-      binding.pry
+
 
     end
   end
