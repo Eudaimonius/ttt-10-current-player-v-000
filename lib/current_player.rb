@@ -1,7 +1,6 @@
 
 def turn_count(board)
-  board = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
-  number_of_turns=0
+
 
 board.each do |turns|
 
