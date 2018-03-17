@@ -16,7 +16,10 @@ def turn_count(board)
 end
 
 
-def current_player(current='X')
+def current_player(player='X')
+  turn_count(board)
+  if number_of_turns%2==0
+
 
 
 
