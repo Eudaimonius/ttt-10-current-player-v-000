@@ -22,10 +22,5 @@ def current_player(current_player='X')
       return current_player=="X"
     elsif number_of_turns%2!=0
       return current_player=="O"
-
-
-
-
-
-return current
+    end
 end
