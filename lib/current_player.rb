@@ -16,7 +16,7 @@ def turn_count(board)
 end
 
 
-def current_player(current_player='X')
+def current_player(boar, current_player='X')
   turn_count(board)
   if number_of_turns%2==0
       return current_player=="X"
