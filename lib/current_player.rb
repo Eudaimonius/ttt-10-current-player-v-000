@@ -5,7 +5,7 @@ def turn_count(board)
 
   board.each do |position|
 
-    if position="X"||turns="O"
+    if position=="X"||turns=="O"
 
       number_of_turns+=1
 
